@@ -1,0 +1,2 @@
+1yta_xray_all-atom.pdb and 2is3_xray-all_atom.pdb are the atomistic reference structures used to generate Figure 2a and e, respectively, in VMD. 
+Note that missing heavy atoms and residues in 2is3 were rebuilt in CHARMM. 

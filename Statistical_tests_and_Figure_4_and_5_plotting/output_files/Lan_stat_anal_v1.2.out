@@ -1,0 +1,207 @@
+['inpfiles/1yta_fast_slow_wt_master_df.csv', 'inpfiles/2is3_fast_slow_wt_master_df.csv']
+0 inpfiles/1yta_fast_slow_wt_master_df.csv
+1 inpfiles/2is3_fast_slow_wt_master_df.csv
+(3600, 29)
+1yta fast dimer
+DIMER
+1yta fast mono
+MONO
+0.23 0.295 0.355
+0.205 0.27 0.33
+1yta slow dimer
+DIMER
+1yta slow mono
+MONO
+0.145 0.2 0.255
+0.13 0.185 0.24
+1yta wt dimer
+DIMER
+1yta wt mono
+MONO
+0.32 0.39 0.455
+0.305 0.375 0.44
+2is3 fast dimer
+DIMER
+2is3 fast mono
+MONO
+0.03 0.06 0.095
+0.025 0.055 0.09
+2is3 slow dimer
+DIMER
+2is3 slow mono
+MONO
+0.01 0.03 0.055
+0.005 0.02 0.04
+2is3 wt dimer
+DIMER
+2is3 wt mono
+MONO
+0.01 0.035 0.06
+0.01 0.03 0.055
+     PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+0   1yta  fast    dimer   0.505          0.430              0.570              0.380              0.310                  0.445                
+2   1yta  slow    dimer   0.365          0.295              0.430              0.265              0.205                  0.325                
+4   1yta  wt      dimer   0.620          0.545              0.680              0.490              0.415                  0.555                
+1   1yta  fast    mono    0.295          0.230              0.355              0.270              0.205                  0.330                
+3   1yta  slow    mono    0.200          0.145              0.255              0.185              0.130                  0.240                
+5   1yta  wt      mono    0.390          0.320              0.455              0.375              0.305                  0.440                
+6   2is3  fast    dimer   0.135          0.090              0.180              0.100              0.060                  0.140                
+8   2is3  slow    dimer   0.030          0.010              0.055              0.025              0.005                  0.050                
+10  2is3  wt      dimer   0.055          0.025              0.085              0.045              0.020                  0.075                
+7   2is3  fast    mono    0.060          0.030              0.095              0.055              0.025                  0.090                
+9   2is3  slow    mono    0.030          0.010              0.055              0.020              0.005                  0.040                
+11  2is3  wt      mono    0.035          0.010              0.060              0.030              0.010                  0.055                
+SAVED: state_fraction_df.csv
+SAVED: Contingency_tables.xlsx
+SAVED: Contingency_tables.csv
+permutation test for pvalues
+pair1, pair2, pvalue for ent in general, pvalue for ent at int
+(('1yta', 'fast', 'dimer'), ('1yta', 'slow', 'dimer')) 0.0034199658003419967 ** 0.00981990180098199 **
+(('1yta', 'fast', 'dimer'), ('1yta', 'wt', 'dimer')) 0.012759872401275987 * 0.016729832701672984 *
+(('1yta', 'slow', 'dimer'), ('1yta', 'wt', 'dimer')) 9.99990000099999e-06 *** 9.99990000099999e-06 ***
+(('1yta', 'fast', 'mono'), ('1yta', 'slow', 'mono')) 0.018029819701802983 * 0.02758972410275897 *
+(('1yta', 'fast', 'mono'), ('1yta', 'wt', 'mono')) 0.028159718402815972 * 0.016119838801611983 *
+(('1yta', 'slow', 'mono'), ('1yta', 'wt', 'mono')) 1.999980000199998e-05 *** 2.999970000299997e-05 ***
+(('2is3', 'fast', 'dimer'), ('2is3', 'slow', 'dimer')) 6.999930000699993e-05 *** 0.0012999870001299987 **
+(('2is3', 'fast', 'dimer'), ('2is3', 'wt', 'dimer')) 0.005169948300516995 ** 0.025409745902540973 *
+(('2is3', 'slow', 'dimer'), ('2is3', 'wt', 'dimer')) 0.16008839911600883 ns 0.2084779152208478 ns
+(('2is3', 'fast', 'mono'), ('2is3', 'slow', 'mono')) 0.11424885751142488 ns 0.056329436705632945 ns
+(('2is3', 'fast', 'mono'), ('2is3', 'wt', 'mono')) 0.1742182578174218 ns 0.16191838081619184 ns
+(('2is3', 'slow', 'mono'), ('2is3', 'wt', 'mono')) 0.5005449945500545 ns 0.3776962230377696 ns
+making fraction ent figure
+[['a' 'b']
+ ['c' 'd']]
+0 mono
+     PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+1   1yta  fast    mono    0.295          0.230              0.355              0.270              0.205                  0.330                
+3   1yta  slow    mono    0.200          0.145              0.255              0.185              0.130                  0.240                
+5   1yta  wt      mono    0.390          0.320              0.455              0.375              0.305                  0.440                
+7   2is3  fast    mono    0.060          0.030              0.095              0.055              0.025                  0.090                
+9   2is3  slow    mono    0.030          0.010              0.055              0.020              0.005                  0.040                
+11  2is3  wt      mono    0.035          0.010              0.060              0.030              0.010                  0.055                
+0 Overall gain in entanglement
+wt 1yta 0
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+5  1yta  wt      mono    0.39           0.32               0.455              0.375              0.305                  0.44                 
+fast 1yta 5
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+1  1yta  fast    mono    0.295          0.23               0.355              0.27               0.205                  0.33                 
+slow 1yta 10
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+3  1yta  slow    mono    0.2            0.145              0.255              0.185              0.13                   0.24                 
+wt 2is3 16
+     PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+11  2is3  wt      mono    0.035          0.01               0.06               0.03               0.01                   0.055                
+fast 2is3 21
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+7  2is3  fast    mono    0.06           0.03               0.095              0.055              0.025                  0.09                 
+slow 2is3 26
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+9  2is3  slow    mono    0.03           0.01               0.055              0.02               0.005                  0.04                 
+1 Gain in entanglement at interface
+wt 1yta 0
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+5  1yta  wt      mono    0.39           0.32               0.455              0.375              0.305                  0.44                 
+5    0.07
+dtype: float64 5    0.065
+dtype: float64
+fast 1yta 5
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+1  1yta  fast    mono    0.295          0.23               0.355              0.27               0.205                  0.33                 
+1    0.065
+dtype: float64 1    0.06
+dtype: float64
+slow 1yta 10
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+3  1yta  slow    mono    0.2            0.145              0.255              0.185              0.13                   0.24                 
+3    0.055
+dtype: float64 3    0.055
+dtype: float64
+wt 2is3 16
+     PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+11  2is3  wt      mono    0.035          0.01               0.06               0.03               0.01                   0.055                
+11    0.02
+dtype: float64 11    0.025
+dtype: float64
+fast 2is3 21
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+7  2is3  fast    mono    0.06           0.03               0.095              0.055              0.025                  0.09                 
+7    0.03
+dtype: float64 7    0.035
+dtype: float64
+slow 2is3 26
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+9  2is3  slow    mono    0.03           0.01               0.055              0.02               0.005                  0.04                 
+9    0.015
+dtype: float64 9    0.02
+dtype: float64
+1 dimer
+     PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+0   1yta  fast    dimer   0.505          0.430              0.570              0.380              0.310                  0.445                
+2   1yta  slow    dimer   0.365          0.295              0.430              0.265              0.205                  0.325                
+4   1yta  wt      dimer   0.620          0.545              0.680              0.490              0.415                  0.555                
+6   2is3  fast    dimer   0.135          0.090              0.180              0.100              0.060                  0.140                
+8   2is3  slow    dimer   0.030          0.010              0.055              0.025              0.005                  0.050                
+10  2is3  wt      dimer   0.055          0.025              0.085              0.045              0.020                  0.075                
+0 Overall gain in entanglement
+wt 1yta 0
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+4  1yta  wt      dimer   0.62           0.545              0.68               0.49               0.415                  0.555                
+fast 1yta 5
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+0  1yta  fast    dimer   0.505          0.43               0.57               0.38               0.31                   0.445                
+slow 1yta 10
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+2  1yta  slow    dimer   0.365          0.295              0.43               0.265              0.205                  0.325                
+wt 2is3 16
+     PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+10  2is3  wt      dimer   0.055          0.025              0.085              0.045              0.02                   0.075                
+fast 2is3 21
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+6  2is3  fast    dimer   0.135          0.09               0.18               0.1                0.06                   0.14                 
+slow 2is3 26
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+8  2is3  slow    dimer   0.03           0.01               0.055              0.025              0.005                  0.05                 
+1 Gain in entanglement at interface
+wt 1yta 0
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+4  1yta  wt      dimer   0.62           0.545              0.68               0.49               0.415                  0.555                
+4    0.075
+dtype: float64 4    0.065
+dtype: float64
+fast 1yta 5
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+0  1yta  fast    dimer   0.505          0.43               0.57               0.38               0.31                   0.445                
+0    0.07
+dtype: float64 0    0.065
+dtype: float64
+slow 1yta 10
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+2  1yta  slow    dimer   0.365          0.295              0.43               0.265              0.205                  0.325                
+2    0.06
+dtype: float64 2    0.06
+dtype: float64
+wt 2is3 16
+     PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+10  2is3  wt      dimer   0.055          0.025              0.085              0.045              0.02                   0.075                
+10    0.025
+dtype: float64 10    0.03
+dtype: float64
+fast 2is3 21
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+6  2is3  fast    dimer   0.135          0.09               0.18               0.1                0.06                   0.14                 
+6    0.04
+dtype: float64 6    0.04
+dtype: float64
+slow 2is3 26
+    PDB variant subunit  frac_ent_pres  frac_ent_pres_cil  frac_ent_pres_ciu  frac_ent_pres@int  frac_ent_pres@int_cil  frac_ent_pres@int_ciu
+8  2is3  slow    dimer   0.03           0.01               0.055              0.025              0.005                  0.05                 
+8    0.02
+dtype: float64 8    0.025
+dtype: float64
+0
+0 1yta
+1 2is3
+2
+0 1yta
+1 2is3

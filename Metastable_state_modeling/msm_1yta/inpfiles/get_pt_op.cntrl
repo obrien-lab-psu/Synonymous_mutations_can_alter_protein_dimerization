@@ -1,0 +1,4 @@
+n_traj = 1
+mutant_type_list = fast slow wt
+act_mask = all
+prefix_dir = outfiles/

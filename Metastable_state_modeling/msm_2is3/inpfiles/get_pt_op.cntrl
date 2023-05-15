@@ -1,0 +1,5 @@
+n_traj = 200
+rep_per_traj = 1
+mutant_type_list = fast slow wt
+act_mask = all
+prefix_dir = /gpfs/group/epo2/default/ims86/Lan_misfolding_project/comparison_to_stephens_work/MSM_2is3 

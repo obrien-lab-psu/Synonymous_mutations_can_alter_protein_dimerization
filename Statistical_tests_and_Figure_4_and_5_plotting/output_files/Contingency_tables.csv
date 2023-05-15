@@ -1,0 +1,1369 @@
+,PDB,variant,cutoff,entanglement,ctable
+0,1yta,fast,5,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  101  90
+Weak Binding N  0    9
+OR  INF
+pvalue  1.473E-03"
+1,1yta,fast,10,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  101  80
+Weak Binding N  0    19
+OR  INF
+pvalue  6.012E-07"
+2,1yta,fast,15,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  101  65
+Weak Binding N  0    34
+OR  INF
+pvalue  1.292E-12"
+3,1yta,fast,20,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  101  53
+Weak Binding N  0    46
+OR  INF
+pvalue  8.553E-18"
+4,1yta,fast,25,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  101  40
+Weak Binding N  0    59
+OR  INF
+pvalue  2.753E-24"
+5,1yta,fast,30,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  89   20
+Weak Binding N  12   79
+OR  2.930E+01
+pvalue  2.139E-23"
+6,1yta,fast,35,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  81   16
+Weak Binding N  20   83
+OR  2.101E+01
+pvalue  1.007E-20"
+7,1yta,fast,40,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  75   13
+Weak Binding N  26   86
+OR  1.908E+01
+pvalue  3.092E-19"
+8,1yta,fast,45,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  65   13
+Weak Binding N  36   86
+OR  1.194E+01
+pvalue  3.410E-14"
+9,1yta,fast,50,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  61   12
+Weak Binding N  40   87
+OR  1.106E+01
+pvalue  4.713E-13"
+10,1yta,fast,55,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  49   10
+Weak Binding N  52   89
+OR  8.387E+00
+pvalue  1.489E-09"
+11,1yta,fast,60,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  48   10
+Weak Binding N  53   89
+OR  8.060E+00
+pvalue  3.362E-09"
+12,1yta,fast,65,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  43   10
+Weak Binding N  58   89
+OR  6.598E+00
+pvalue  1.582E-07"
+13,1yta,fast,70,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  39   10
+Weak Binding N  62   89
+OR  5.598E+00
+pvalue  2.664E-06"
+14,1yta,fast,75,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  34   10
+Weak Binding N  67   89
+OR  4.516E+00
+pvalue  6.624E-05"
+15,1yta,fast,80,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  28   10
+Weak Binding N  73   89
+OR  3.414E+00
+pvalue  1.952E-03"
+16,1yta,fast,85,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  21   7
+Weak Binding N  80   92
+OR  3.450E+00
+pvalue  7.296E-03"
+17,1yta,fast,90,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  12   5
+Weak Binding N  89   94
+OR  2.535E+00
+pvalue  1.265E-01"
+18,1yta,fast,95,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  5    2
+Weak Binding N  96   97
+OR  2.526E+00
+pvalue  4.449E-01"
+19,1yta,slow,5,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  73   106
+Weak Binding N  0    21
+OR  INF
+pvalue  5.182E-05"
+20,1yta,slow,10,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  73   89
+Weak Binding N  0    38
+OR  INF
+pvalue  3.150E-09"
+21,1yta,slow,15,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  73   70
+Weak Binding N  0    57
+OR  INF
+pvalue  1.786E-14"
+22,1yta,slow,20,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  73   61
+Weak Binding N  0    66
+OR  INF
+pvalue  1.743E-17"
+23,1yta,slow,25,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  70   38
+Weak Binding N  3    89
+OR  5.465E+01
+pvalue  4.893E-22"
+24,1yta,slow,30,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  66   17
+Weak Binding N  7    110
+OR  6.101E+01
+pvalue  1.754E-28"
+25,1yta,slow,35,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  61   14
+Weak Binding N  12   113
+OR  4.103E+01
+pvalue  1.727E-25"
+26,1yta,slow,40,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  56   12
+Weak Binding N  17   115
+OR  3.157E+01
+pvalue  1.379E-22"
+27,1yta,slow,45,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  49   11
+Weak Binding N  24   116
+OR  2.153E+01
+pvalue  3.918E-18"
+28,1yta,slow,50,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  41   8
+Weak Binding N  32   119
+OR  1.906E+01
+pvalue  4.769E-15"
+29,1yta,slow,55,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  36   7
+Weak Binding N  37   120
+OR  1.668E+01
+pvalue  7.435E-13"
+30,1yta,slow,60,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  33   7
+Weak Binding N  40   120
+OR  1.414E+01
+pvalue  2.948E-11"
+31,1yta,slow,65,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  30   7
+Weak Binding N  43   120
+OR  1.196E+01
+pvalue  9.466E-10"
+32,1yta,slow,70,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  22   7
+Weak Binding N  51   120
+OR  7.395E+00
+pvalue  4.145E-06"
+33,1yta,slow,75,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  21   7
+Weak Binding N  52   120
+OR  6.923E+00
+pvalue  1.010E-05"
+34,1yta,slow,80,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  18   7
+Weak Binding N  55   120
+OR  5.610E+00
+pvalue  2.132E-04"
+35,1yta,slow,85,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  12   3
+Weak Binding N  61   124
+OR  8.131E+00
+pvalue  4.695E-04"
+36,1yta,slow,90,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  7    2
+Weak Binding N  66   125
+OR  6.629E+00
+pvalue  1.263E-02"
+37,1yta,slow,95,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  2    0
+Weak Binding N  71   127
+OR  INF
+pvalue  1.321E-01"
+38,1yta,wt,5,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  124  66
+Weak Binding N  0    10
+OR  INF
+pvalue  4.252E-05"
+39,1yta,wt,10,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  124  56
+Weak Binding N  0    20
+OR  INF
+pvalue  6.755E-10"
+40,1yta,wt,15,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  124  46
+Weak Binding N  0    30
+OR  INF
+pvalue  3.153E-15"
+41,1yta,wt,20,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  124  36
+Weak Binding N  0    40
+OR  INF
+pvalue  3.030E-21"
+42,1yta,wt,25,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  123  27
+Weak Binding N  1    49
+OR  2.232E+02
+pvalue  7.811E-26"
+43,1yta,wt,30,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  120  20
+Weak Binding N  4    56
+OR  8.400E+01
+pvalue  1.469E-27"
+44,1yta,wt,35,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  110  20
+Weak Binding N  14   56
+OR  2.200E+01
+pvalue  1.753E-19"
+45,1yta,wt,40,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  100  20
+Weak Binding N  24   56
+OR  1.167E+01
+pvalue  1.993E-14"
+46,1yta,wt,45,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  90   20
+Weak Binding N  34   56
+OR  7.412E+00
+pvalue  1.537E-10"
+47,1yta,wt,50,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  82   18
+Weak Binding N  42   58
+OR  6.291E+00
+pvalue  7.356E-09"
+48,1yta,wt,55,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  72   18
+Weak Binding N  52   58
+OR  4.462E+00
+pvalue  2.231E-06"
+49,1yta,wt,60,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  62   18
+Weak Binding N  62   58
+OR  3.222E+00
+pvalue  3.254E-04"
+50,1yta,wt,65,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  53   17
+Weak Binding N  71   59
+OR  2.591E+00
+pvalue  3.711E-03"
+51,1yta,wt,70,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  43   17
+Weak Binding N  81   59
+OR  1.842E+00
+pvalue  8.045E-02"
+52,1yta,wt,75,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  33   17
+Weak Binding N  91   59
+OR  1.259E+00
+pvalue  6.141E-01"
+53,1yta,wt,80,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  24   16
+Weak Binding N  100  60
+OR  9.000E-01
+pvalue  8.558E-01"
+54,1yta,wt,85,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  18   12
+Weak Binding N  106  64
+OR  9.057E-01
+pvalue  8.399E-01"
+55,1yta,wt,90,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  12   8
+Weak Binding N  112  68
+OR  9.107E-01
+pvalue  1.000E+00"
+56,1yta,wt,95,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  6    4
+Weak Binding N  118  72
+OR  9.153E-01
+pvalue  1.000E+00"
+57,1yta,fast,5,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  76   115
+Weak Binding N  0    9
+OR  INF
+pvalue  1.418E-02"
+58,1yta,fast,10,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  76   105
+Weak Binding N  0    19
+OR  INF
+pvalue  8.478E-05"
+59,1yta,fast,15,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  76   90
+Weak Binding N  0    34
+OR  INF
+pvalue  1.974E-08"
+60,1yta,fast,20,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  76   78
+Weak Binding N  0    46
+OR  INF
+pvalue  6.962E-12"
+61,1yta,fast,25,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  76   65
+Weak Binding N  0    59
+OR  INF
+pvalue  7.370E-16"
+62,1yta,fast,30,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  66   43
+Weak Binding N  10   81
+OR  1.243E+01
+pvalue  1.565E-13"
+63,1yta,fast,35,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  58   39
+Weak Binding N  18   85
+OR  7.023E+00
+pvalue  5.471E-10"
+64,1yta,fast,40,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  54   34
+Weak Binding N  22   90
+OR  6.497E+00
+pvalue  2.171E-09"
+65,1yta,fast,45,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  47   31
+Weak Binding N  29   93
+OR  4.862E+00
+pvalue  2.913E-07"
+66,1yta,fast,50,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  44   29
+Weak Binding N  32   95
+OR  4.504E+00
+pvalue  1.137E-06"
+67,1yta,fast,55,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  34   25
+Weak Binding N  42   99
+OR  3.206E+00
+pvalue  3.856E-04"
+68,1yta,fast,60,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  34   24
+Weak Binding N  42   100
+OR  3.373E+00
+pvalue  1.945E-04"
+69,1yta,fast,65,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  30   23
+Weak Binding N  46   101
+OR  2.864E+00
+pvalue  1.620E-03"
+70,1yta,fast,70,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  27   22
+Weak Binding N  49   102
+OR  2.555E+00
+pvalue  6.465E-03"
+71,1yta,fast,75,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  23   21
+Weak Binding N  53   103
+OR  2.128E+00
+pvalue  3.471E-02"
+72,1yta,fast,80,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  18   20
+Weak Binding N  58   104
+OR  1.614E+00
+pvalue  1.982E-01"
+73,1yta,fast,85,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  12   16
+Weak Binding N  64   108
+OR  1.266E+00
+pvalue  6.752E-01"
+74,1yta,fast,90,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  7    10
+Weak Binding N  69   114
+OR  1.157E+00
+pvalue  7.981E-01"
+75,1yta,fast,95,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  4    3
+Weak Binding N  72   121
+OR  2.241E+00
+pvalue  4.303E-01"
+76,1yta,slow,5,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  53   126
+Weak Binding N  0    21
+OR  INF
+pvalue  1.352E-03"
+77,1yta,slow,10,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  53   109
+Weak Binding N  0    38
+OR  INF
+pvalue  2.562E-06"
+78,1yta,slow,15,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  53   90
+Weak Binding N  0    57
+OR  INF
+pvalue  6.842E-10"
+79,1yta,slow,20,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  53   81
+Weak Binding N  0    66
+OR  INF
+pvalue  8.379E-12"
+80,1yta,slow,25,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  50   58
+Weak Binding N  3    89
+OR  2.557E+01
+pvalue  3.025E-13"
+81,1yta,slow,30,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  47   36
+Weak Binding N  6    111
+OR  2.415E+01
+pvalue  1.251E-16"
+82,1yta,slow,35,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  44   31
+Weak Binding N  9    116
+OR  1.829E+01
+pvalue  1.715E-15"
+83,1yta,slow,40,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  39   29
+Weak Binding N  14   118
+OR  1.133E+01
+pvalue  6.587E-12"
+84,1yta,slow,45,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  34   26
+Weak Binding N  19   121
+OR  8.328E+00
+pvalue  1.149E-09"
+85,1yta,slow,50,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  26   23
+Weak Binding N  27   124
+OR  5.192E+00
+pvalue  4.048E-06"
+86,1yta,slow,55,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  22   21
+Weak Binding N  31   126
+OR  4.258E+00
+pvalue  1.370E-04"
+87,1yta,slow,60,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  20   20
+Weak Binding N  33   127
+OR  3.848E+00
+pvalue  4.758E-04"
+88,1yta,slow,65,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  18   19
+Weak Binding N  35   128
+OR  3.465E+00
+pvalue  1.584E-03"
+89,1yta,slow,70,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  13   16
+Weak Binding N  40   131
+OR  2.661E+00
+pvalue  2.223E-02"
+90,1yta,slow,75,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  13   15
+Weak Binding N  40   132
+OR  2.860E+00
+pvalue  1.890E-02"
+91,1yta,slow,80,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  11   14
+Weak Binding N  42   133
+OR  2.488E+00
+pvalue  5.040E-02"
+92,1yta,slow,85,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  6    9
+Weak Binding N  47   138
+OR  1.957E+00
+pvalue  2.313E-01"
+93,1yta,slow,90,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  3    6
+Weak Binding N  50   141
+OR  1.410E+00
+pvalue  7.016E-01"
+94,1yta,slow,95,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    1
+Weak Binding N  52   146
+OR  2.808E+00
+pvalue  4.608E-01"
+95,1yta,wt,5,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  98   92
+Weak Binding N  0    10
+OR  INF
+pvalue  1.573E-03"
+96,1yta,wt,10,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  98   82
+Weak Binding N  0    20
+OR  INF
+pvalue  7.273E-07"
+97,1yta,wt,15,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  98   72
+Weak Binding N  0    30
+OR  INF
+pvalue  1.795E-10"
+98,1yta,wt,20,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  98   62
+Weak Binding N  0    40
+OR  INF
+pvalue  2.066E-14"
+99,1yta,wt,25,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  97   53
+Weak Binding N  1    49
+OR  8.968E+01
+pvalue  8.648E-17"
+100,1yta,wt,30,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  95   45
+Weak Binding N  3    57
+OR  4.011E+01
+pvalue  4.563E-18"
+101,1yta,wt,35,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  89   41
+Weak Binding N  9    61
+OR  1.471E+01
+pvalue  1.422E-14"
+102,1yta,wt,40,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  80   40
+Weak Binding N  18   62
+OR  6.889E+00
+pvalue  7.322E-10"
+103,1yta,wt,45,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  72   38
+Weak Binding N  26   64
+OR  4.664E+00
+pvalue  2.683E-07"
+104,1yta,wt,50,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  66   34
+Weak Binding N  32   68
+OR  4.125E+00
+pvalue  2.478E-06"
+105,1yta,wt,55,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  58   32
+Weak Binding N  40   70
+OR  3.172E+00
+pvalue  1.133E-04"
+106,1yta,wt,60,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  50   30
+Weak Binding N  48   72
+OR  2.500E+00
+pvalue  2.377E-03"
+107,1yta,wt,65,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  42   28
+Weak Binding N  56   74
+OR  1.982E+00
+pvalue  2.639E-02"
+108,1yta,wt,70,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  34   26
+Weak Binding N  64   76
+OR  1.553E+00
+pvalue  1.677E-01"
+109,1yta,wt,75,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  27   23
+Weak Binding N  71   79
+OR  1.306E+00
+pvalue  4.204E-01"
+110,1yta,wt,80,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  22   18
+Weak Binding N  76   84
+OR  1.351E+00
+pvalue  4.800E-01"
+111,1yta,wt,85,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  16   14
+Weak Binding N  82   88
+OR  1.226E+00
+pvalue  6.934E-01"
+112,1yta,wt,90,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  11   9
+Weak Binding N  87   93
+OR  1.307E+00
+pvalue  6.414E-01"
+113,1yta,wt,95,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  6    4
+Weak Binding N  92   98
+OR  1.598E+00
+pvalue  5.314E-01"
+114,2is3,fast,5,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  26   166
+Weak Binding N  1    7
+OR  1.096E+00
+pvalue  1.000E+00"
+115,2is3,fast,10,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  24   154
+Weak Binding N  3    19
+OR  9.870E-01
+pvalue  1.000E+00"
+116,2is3,fast,15,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  23   141
+Weak Binding N  4    32
+OR  1.305E+00
+pvalue  7.914E-01"
+117,2is3,fast,20,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  20   131
+Weak Binding N  7    42
+OR  9.160E-01
+pvalue  8.138E-01"
+118,2is3,fast,25,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  17   126
+Weak Binding N  10   47
+OR  6.341E-01
+pvalue  3.589E-01"
+119,2is3,fast,30,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  15   119
+Weak Binding N  12   54
+OR  5.672E-01
+pvalue  1.908E-01"
+120,2is3,fast,35,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  15   117
+Weak Binding N  12   56
+OR  5.983E-01
+pvalue  2.747E-01"
+121,2is3,fast,40,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  15   106
+Weak Binding N  12   67
+OR  7.901E-01
+pvalue  6.729E-01"
+122,2is3,fast,45,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  12   96
+Weak Binding N  15   77
+OR  6.417E-01
+pvalue  3.059E-01"
+123,2is3,fast,50,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  12   89
+Weak Binding N  15   84
+OR  7.551E-01
+pvalue  5.399E-01"
+124,2is3,fast,55,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  11   82
+Weak Binding N  16   91
+OR  7.630E-01
+pvalue  5.419E-01"
+125,2is3,fast,60,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  9    75
+Weak Binding N  18   98
+OR  6.533E-01
+pvalue  4.038E-01"
+126,2is3,fast,65,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  9    69
+Weak Binding N  18   104
+OR  7.536E-01
+pvalue  6.720E-01"
+127,2is3,fast,70,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  7    66
+Weak Binding N  20   107
+OR  5.674E-01
+pvalue  2.841E-01"
+128,2is3,fast,75,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  6    56
+Weak Binding N  21   117
+OR  5.969E-01
+pvalue  3.732E-01"
+129,2is3,fast,80,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  6    49
+Weak Binding N  21   124
+OR  7.230E-01
+pvalue  6.451E-01"
+130,2is3,fast,85,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  4    35
+Weak Binding N  23   138
+OR  6.857E-01
+pvalue  6.102E-01"
+131,2is3,fast,90,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  2    22
+Weak Binding N  25   151
+OR  5.491E-01
+pvalue  7.490E-01"
+132,2is3,fast,95,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  1    5
+Weak Binding N  26   168
+OR  1.292E+00
+pvalue  5.861E-01"
+133,2is3,slow,5,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  5    188
+Weak Binding N  1    6
+OR  1.596E-01
+pvalue  1.947E-01"
+134,2is3,slow,10,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  4    183
+Weak Binding N  2    11
+OR  1.202E-01
+pvalue  5.057E-02"
+135,2is3,slow,15,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  4    174
+Weak Binding N  2    20
+OR  2.299E-01
+pvalue  1.321E-01"
+136,2is3,slow,20,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  3    165
+Weak Binding N  3    29
+OR  1.758E-01
+pvalue  5.326E-02"
+137,2is3,slow,25,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  3    156
+Weak Binding N  3    38
+OR  2.436E-01
+pvalue  1.020E-01"
+138,2is3,slow,30,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  3    150
+Weak Binding N  3    44
+OR  2.933E-01
+pvalue  1.433E-01"
+139,2is3,slow,35,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  3    138
+Weak Binding N  3    56
+OR  4.058E-01
+pvalue  3.629E-01"
+140,2is3,slow,40,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  3    118
+Weak Binding N  3    76
+OR  6.441E-01
+pvalue  6.824E-01"
+141,2is3,slow,45,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  2    114
+Weak Binding N  4    80
+OR  3.509E-01
+pvalue  2.406E-01"
+142,2is3,slow,50,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  2    104
+Weak Binding N  4    90
+OR  4.327E-01
+pvalue  4.227E-01"
+143,2is3,slow,55,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  2    95
+Weak Binding N  4    99
+OR  5.211E-01
+pvalue  6.836E-01"
+144,2is3,slow,60,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  2    81
+Weak Binding N  4    113
+OR  6.975E-01
+pvalue  1.000E+00"
+145,2is3,slow,65,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  1    67
+Weak Binding N  5    127
+OR  3.791E-01
+pvalue  6.660E-01"
+146,2is3,slow,70,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  1    62
+Weak Binding N  5    132
+OR  4.258E-01
+pvalue  6.672E-01"
+147,2is3,slow,75,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  1    53
+Weak Binding N  5    141
+OR  5.321E-01
+pvalue  1.000E+00"
+148,2is3,slow,80,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  1    44
+Weak Binding N  5    150
+OR  6.818E-01
+pvalue  1.000E+00"
+149,2is3,slow,85,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  1    35
+Weak Binding N  5    159
+OR  9.086E-01
+pvalue  1.000E+00"
+150,2is3,slow,90,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  1    26
+Weak Binding N  5    168
+OR  1.292E+00
+pvalue  5.861E-01"
+151,2is3,slow,95,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  1    12
+Weak Binding N  5    182
+OR  3.033E+00
+pvalue  3.354E-01"
+152,2is3,wt,5,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  11   179
+Weak Binding N  0    10
+OR  INF
+pvalue  1.000E+00"
+153,2is3,wt,10,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  11   169
+Weak Binding N  0    20
+OR  INF
+pvalue  6.066E-01"
+154,2is3,wt,15,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  11   159
+Weak Binding N  0    30
+OR  INF
+pvalue  3.763E-01"
+155,2is3,wt,20,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  9    151
+Weak Binding N  2    38
+OR  1.132E+00
+pvalue  1.000E+00"
+156,2is3,wt,25,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  9    141
+Weak Binding N  2    48
+OR  1.532E+00
+pvalue  7.343E-01"
+157,2is3,wt,30,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  9    131
+Weak Binding N  2    58
+OR  1.992E+00
+pvalue  5.107E-01"
+158,2is3,wt,35,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  8    122
+Weak Binding N  3    67
+OR  1.464E+00
+pvalue  7.502E-01"
+159,2is3,wt,40,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  8    112
+Weak Binding N  3    77
+OR  1.833E+00
+pvalue  5.309E-01"
+160,2is3,wt,45,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  8    102
+Weak Binding N  3    87
+OR  2.275E+00
+pvalue  3.511E-01"
+161,2is3,wt,50,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  8    92
+Weak Binding N  3    97
+OR  2.812E+00
+pvalue  2.134E-01"
+162,2is3,wt,55,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  8    82
+Weak Binding N  3    107
+OR  3.480E+00
+pvalue  6.777E-02"
+163,2is3,wt,60,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  6    74
+Weak Binding N  5    115
+OR  1.865E+00
+pvalue  3.529E-01"
+164,2is3,wt,65,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  6    64
+Weak Binding N  5    125
+OR  2.344E+00
+pvalue  1.977E-01"
+165,2is3,wt,70,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  6    54
+Weak Binding N  5    135
+OR  3.000E+00
+pvalue  8.993E-02"
+166,2is3,wt,75,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  6    44
+Weak Binding N  5    145
+OR  3.955E+00
+pvalue  3.030E-02"
+167,2is3,wt,80,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  4    36
+Weak Binding N  7    153
+OR  2.429E+00
+pvalue  2.353E-01"
+168,2is3,wt,85,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  2    28
+Weak Binding N  9    161
+OR  1.278E+00
+pvalue  6.718E-01"
+169,2is3,wt,90,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  1    19
+Weak Binding N  10   170
+OR  8.947E-01
+pvalue  1.000E+00"
+170,2is3,wt,95,entanglement_present,"                              Entangled?
+                               Y    N
+Weak Binding Y  0    10
+Weak Binding N  11   179
+OR  0.000E+00
+pvalue  1.000E+00"
+171,2is3,fast,5,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  20   172
+Weak Binding N  0    8
+OR  INF
+pvalue  1.000E+00"
+172,2is3,fast,10,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  18   160
+Weak Binding N  2    20
+OR  1.125E+00
+pvalue  1.000E+00"
+173,2is3,fast,15,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  17   147
+Weak Binding N  3    33
+OR  1.272E+00
+pvalue  1.000E+00"
+174,2is3,fast,20,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  14   137
+Weak Binding N  6    43
+OR  7.324E-01
+pvalue  5.857E-01"
+175,2is3,fast,25,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  12   131
+Weak Binding N  8    49
+OR  5.611E-01
+pvalue  2.953E-01"
+176,2is3,fast,30,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  10   124
+Weak Binding N  10   56
+OR  4.516E-01
+pvalue  1.302E-01"
+177,2is3,fast,35,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  10   122
+Weak Binding N  10   58
+OR  4.754E-01
+pvalue  1.365E-01"
+178,2is3,fast,40,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  10   111
+Weak Binding N  10   69
+OR  6.216E-01
+pvalue  3.412E-01"
+179,2is3,fast,45,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  8    100
+Weak Binding N  12   80
+OR  5.333E-01
+pvalue  2.383E-01"
+180,2is3,fast,50,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  8    93
+Weak Binding N  12   87
+OR  6.237E-01
+pvalue  3.544E-01"
+181,2is3,fast,55,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  8    85
+Weak Binding N  12   95
+OR  7.451E-01
+pvalue  6.394E-01"
+182,2is3,fast,60,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  6    78
+Weak Binding N  14   102
+OR  5.604E-01
+pvalue  3.408E-01"
+183,2is3,fast,65,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  6    72
+Weak Binding N  14   108
+OR  6.429E-01
+pvalue  4.730E-01"
+184,2is3,fast,70,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  5    68
+Weak Binding N  15   112
+OR  5.490E-01
+pvalue  3.316E-01"
+185,2is3,fast,75,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  4    58
+Weak Binding N  16   122
+OR  5.259E-01
+pvalue  3.172E-01"
+186,2is3,fast,80,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  4    51
+Weak Binding N  16   129
+OR  6.324E-01
+pvalue  5.990E-01"
+187,2is3,fast,85,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    37
+Weak Binding N  18   143
+OR  4.294E-01
+pvalue  3.762E-01"
+188,2is3,fast,90,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    23
+Weak Binding N  19   157
+OR  3.593E-01
+pvalue  4.779E-01"
+189,2is3,fast,95,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    5
+Weak Binding N  19   175
+OR  1.842E+00
+pvalue  4.731E-01"
+190,2is3,slow,5,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  4    189
+Weak Binding N  1    6
+OR  1.270E-01
+pvalue  1.647E-01"
+191,2is3,slow,10,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  3    184
+Weak Binding N  2    11
+OR  8.967E-02
+pvalue  3.500E-02"
+192,2is3,slow,15,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  3    175
+Weak Binding N  2    20
+OR  1.714E-01
+pvalue  9.428E-02"
+193,2is3,slow,20,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    166
+Weak Binding N  3    29
+OR  1.165E-01
+pvalue  2.990E-02"
+194,2is3,slow,25,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    157
+Weak Binding N  3    38
+OR  1.614E-01
+pvalue  5.945E-02"
+195,2is3,slow,30,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    151
+Weak Binding N  3    44
+OR  1.943E-01
+pvalue  8.573E-02"
+196,2is3,slow,35,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    139
+Weak Binding N  3    56
+OR  2.686E-01
+pvalue  1.538E-01"
+197,2is3,slow,40,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    119
+Weak Binding N  3    76
+OR  4.258E-01
+pvalue  3.854E-01"
+198,2is3,slow,45,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    114
+Weak Binding N  3    81
+OR  4.737E-01
+pvalue  6.515E-01"
+199,2is3,slow,50,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    104
+Weak Binding N  3    91
+OR  5.833E-01
+pvalue  6.674E-01"
+200,2is3,slow,55,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    95
+Weak Binding N  3    100
+OR  7.018E-01
+pvalue  1.000E+00"
+201,2is3,slow,60,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  2    81
+Weak Binding N  3    114
+OR  9.383E-01
+pvalue  1.000E+00"
+202,2is3,slow,65,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    67
+Weak Binding N  4    128
+OR  4.776E-01
+pvalue  6.634E-01"
+203,2is3,slow,70,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    62
+Weak Binding N  4    133
+OR  5.363E-01
+pvalue  1.000E+00"
+204,2is3,slow,75,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    53
+Weak Binding N  4    142
+OR  6.698E-01
+pvalue  1.000E+00"
+205,2is3,slow,80,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    44
+Weak Binding N  4    151
+OR  8.580E-01
+pvalue  1.000E+00"
+206,2is3,slow,85,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    35
+Weak Binding N  4    160
+OR  1.143E+00
+pvalue  1.000E+00"
+207,2is3,slow,90,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    26
+Weak Binding N  4    169
+OR  1.625E+00
+pvalue  5.196E-01"
+208,2is3,slow,95,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    12
+Weak Binding N  4    183
+OR  3.812E+00
+pvalue  2.879E-01"
+209,2is3,wt,5,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  9    181
+Weak Binding N  0    10
+OR  INF
+pvalue  1.000E+00"
+210,2is3,wt,10,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  9    171
+Weak Binding N  0    20
+OR  INF
+pvalue  6.028E-01"
+211,2is3,wt,15,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  9    161
+Weak Binding N  0    30
+OR  INF
+pvalue  3.606E-01"
+212,2is3,wt,20,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  8    152
+Weak Binding N  1    39
+OR  2.053E+00
+pvalue  6.906E-01"
+213,2is3,wt,25,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  8    142
+Weak Binding N  1    49
+OR  2.761E+00
+pvalue  4.551E-01"
+214,2is3,wt,30,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  8    132
+Weak Binding N  1    59
+OR  3.576E+00
+pvalue  2.835E-01"
+215,2is3,wt,35,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  7    123
+Weak Binding N  2    68
+OR  1.935E+00
+pvalue  4.990E-01"
+216,2is3,wt,40,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  7    113
+Weak Binding N  2    78
+OR  2.416E+00
+pvalue  3.203E-01"
+217,2is3,wt,45,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  7    103
+Weak Binding N  2    88
+OR  2.990E+00
+pvalue  1.897E-01"
+218,2is3,wt,50,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  7    93
+Weak Binding N  2    98
+OR  3.688E+00
+pvalue  1.697E-01"
+219,2is3,wt,55,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  7    83
+Weak Binding N  2    108
+OR  4.554E+00
+pvalue  8.128E-02"
+220,2is3,wt,60,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  5    75
+Weak Binding N  4    116
+OR  1.933E+00
+pvalue  4.883E-01"
+221,2is3,wt,65,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  5    65
+Weak Binding N  4    126
+OR  2.423E+00
+pvalue  2.820E-01"
+222,2is3,wt,70,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  5    55
+Weak Binding N  4    136
+OR  3.091E+00
+pvalue  1.311E-01"
+223,2is3,wt,75,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  5    45
+Weak Binding N  4    146
+OR  4.056E+00
+pvalue  4.499E-02"
+224,2is3,wt,80,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  3    37
+Weak Binding N  6    154
+OR  2.081E+00
+pvalue  3.872E-01"
+225,2is3,wt,85,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    29
+Weak Binding N  8    162
+OR  6.983E-01
+pvalue  1.000E+00"
+226,2is3,wt,90,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  1    19
+Weak Binding N  8    172
+OR  1.132E+00
+pvalue  1.000E+00"
+227,2is3,wt,95,entanglement_present@int,"                          Entangled@int?
+                               Y    N
+Weak Binding Y  0    10
+Weak Binding N  9    181
+OR  0.000E+00
+pvalue  1.000E+00"

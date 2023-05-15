@@ -1,0 +1,4 @@
+# directory                                    mean    lower   upper
+fpt_analysis/fpt_analysis_1yta_wt/props_ts/  : 0.86497 0.84925 0.87977
+fpt_analysis/fpt_analysis_1yta_fast/props_ts/: 0.86253 0.84613 0.87803
+fpt_analysis/fpt_analysis_1yta_slow/props_ts/: 0.88569 0.87176 0.89856

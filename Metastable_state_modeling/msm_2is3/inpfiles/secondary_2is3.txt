@@ -1,0 +1,11 @@
+AlphaHelix 72 78
+AlphaHelix 92 110
+AlphaHelix 122 136
+AlphaHelix 151 159
+AlphaHelix 164 171
+AlphaHelix 183 204
+Strand 17 26
+Strand 36 47
+Strand 51 61
+Strand 114 119
+Strand 143 150

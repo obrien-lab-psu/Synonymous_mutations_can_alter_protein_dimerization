@@ -1,0 +1,56 @@
+* interaction energy calculation
+*
+
+open unit 1 read form name setup/complex_ca.top
+read rtf card unit 1
+close unit 1
+
+open unit 1 read form name setup/complex_nscal1.359_1.235_fnn1_go_bt.prm
+read param card unit 1
+close unit 1
+
+! get psf
+open unit 3 read card name setup/complex_ca.psf
+read psf card unit 3
+close unit 3
+set refcrd setup/complex_ca.cor
+read coor card name @refcrd
+
+! put reference coordinates into comparison set as well
+coor copy comp
+
+defi aintf sele (segid A .and. (resi 13:15 .or. resi 17 .or. resi 121 .or. resi 123 -
+ .or. resi 146 .or. resi 148:150 .or. resi 152:154 .or. resi 156:163 .or. resi 170 -
+ .or. resi 197:198 .or. resi 200:201 .or. resi 204:207 .or. resi 209)) end
+defi bintf sele (segid B .and. (resi 13:15 .or. resi 17 .or. resi 121 .or. resi 123 -
+ .or. resi 146 .or. resi 148:150 .or. resi 152:154 .or. resi 156:162 .or. resi 166 -
+ .or. resi 170 .or. resi 197:198 .or. resi 200:201 .or. resi 204:207 .or. resi 209)) end
+
+  ! speeds up the non-bonded list generation
+  nbond bygr    !!!!Ed suggested use this nbond option instead bycc
+  update DEBY SCRE 10.0 ! Debeye screeing length in units of Angstroms
+  eten on ! Turn on 12-10-6 potential
+
+open write unit 14 form name analysis/dist@compl_@fr_ann_500.dat
+SET traj @j
+LABEL LOOP
+
+  open read unit 3 card name output/anneal_0_complex_@compl_@fr_traj@traj.cor
+  read coor card unit 3
+  close unit 3
+
+quick sele aintf end MASS sele bintf end MASS
+set disp  ?dist
+energy
+set pot ?ener
+update
+inte sele segid A end sele segid B end
+set eneab ?ener
+write title unit 14
+* @traj @disp @pot @eneab
+*
+
+INCR traj BY 1
+IF traj LE 500 GOTO LOOP
+close unit 14
+stop

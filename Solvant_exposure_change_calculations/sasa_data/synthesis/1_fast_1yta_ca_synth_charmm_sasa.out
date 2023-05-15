@@ -1,0 +1,746 @@
+ Processing passed argument "top=native_state_monomer_sims/1yta_ca_a.top"
+ Parameter: top <- "native_state_monomer_sims/1yta_ca_a.top"
+ Processing passed argument "param=native_state_monomer_sims/1yta_ca_a.prm"
+ Parameter: param <- "native_state_monomer_sims/1yta_ca_a.prm"
+ Processing passed argument "psf=native_state_monomer_sims/1yta_ca_a.psf"
+ Parameter: psf <- "native_state_monomer_sims/1yta_ca_a.psf"
+ Processing passed argument "inpath=msm/post_translation/fast/1-200/1/1_i33_post_trans_1yta.dcd"
+ Parameter: inpath <- "msm/post_translation/fast/1-200/1/1_i33_post_trans_1yta.dcd"
+ Processing passed argument "nsteps=2000"
+ Parameter: nsteps <- "2000"
+ Processing passed argument "nres=181"
+ Parameter: nres <- "181"
+ Processing passed argument "outpath=sasa_data/synthesis/1_fast_1yta_ca_synth_charmm_sasa.txt"
+ Parameter: outpath <- "sasa_data/synthesis/1_fast_1yta_ca_synth_charmm_sasa.txt"
+1
+                 Chemistry at HARvard Macromolecular Mechanics
+                   (CHARMM) - Developmental Version 35b5     August 15, 2010   
+       Copyright(c) 1984-2001  President and Fellows of Harvard College
+                              All Rights Reserved
+      Current operating system: Linux-3.10.0-1160.49.1.el7.x86_64(x86_64)@co
+                 Created on  1/25/22 at  1: 7:51 by user: ims86       
+
+            Maximum number of ATOMS:    360720, and RESidues:      120240
+            Current HEAP size:        10240000, and STACK size:  10000000
+
+ Processing passed argument "top=native_state_monomer_sims/1yta_ca_a.top"
+ Parameter: TOP <- "NATIVE_STATE_MONOMER_SIMS/1YTA_CA_A.TOP"
+ Processing passed argument "param=native_state_monomer_sims/1yta_ca_a.prm"
+ Parameter: PARAM <- "NATIVE_STATE_MONOMER_SIMS/1YTA_CA_A.PRM"
+ Processing passed argument "psf=native_state_monomer_sims/1yta_ca_a.psf"
+ Parameter: PSF <- "NATIVE_STATE_MONOMER_SIMS/1YTA_CA_A.PSF"
+ Processing passed argument "inpath=msm/post_translation/fast/1-200/1/1_i33_post_trans_1yta.dcd"
+ Parameter: INPATH <- "MSM/POST_TRANSLATION/FAST/1-200/1/1_I33_POST_TRANS_1YTA.DCD"
+ Processing passed argument "nsteps=2000"
+ Parameter: NSTEPS <- "2000"
+ Processing passed argument "nres=181"
+ Parameter: NRES <- "181"
+ Processing passed argument "outpath=sasa_data/synthesis/1_fast_1yta_ca_synth_charmm_sasa.txt"
+ Parameter: OUTPATH <- "SASA_DATA/SYNTHESIS/1_FAST_1YTA_CA_SYNTH_CHARMM_SASA.TXT"
+ RDTITL> * CHARMM
+ RDTITL> * DANIEL A. NISSLEY, PHD
+ RDTITL> * 02/28/2019
+ RDTITL>  
+  
+ CHARMM>     
+  
+ CHARMM>    prnlev 3
+  
+ CHARMM>    bomlev 0
+  
+ CHARMM>     
+  
+ CHARMM>    IOFO EXTE
+ MISCOM> Expanded I/O format is used.
+  
+ CHARMM>     
+  
+ CHARMM>    ! @top     -> topology file
+ CHARMM>    ! @param   -> parameter file
+ CHARMM>    ! @psf     -> protein structure file
+ CHARMM>    ! @inpath  -> path to input DCD file
+ CHARMM>    ! @outpath -> path to output file
+ CHARMM>    ! @nsteps  -> total number of time steps
+ CHARMM>    ! @nres    -> number of atoms (residues = atoms for CG model)
+ CHARMM>     
+  
+ CHARMM>    ! load CHARMM input files
+ CHARMM>    read rtf card name        @top
+ Parameter: TOP -> "NATIVE_STATE_MONOMER_SIMS/1YTA_CA_A.TOP"
+ VOPEN> Attempting to open::native_state_monomer_sims/1yta_ca_a.top::
+ MAINIO> Residue topology file being read from unit  90.
+ TITLE> * THIS CHARMM .TOP FILE DESCRIBES A CA-CB GO MODEL OF COMPLEX
+ TITLE> *
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>    read param card flex name @param
+ Parameter: PARAM -> "NATIVE_STATE_MONOMER_SIMS/1YTA_CA_A.PRM"
+ VOPEN> Attempting to open::native_state_monomer_sims/1yta_ca_a.prm::
+
+          PARAMETER FILE BEING READ FROM UNIT 90
+ TITLE> * THIS CHARMM .PARAM FILE DESCRIBES A GO MODEL OF COMPLEX
+ TITLE> *
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+  GENA:     1.600467  106.400000    2.268928   26.300000    0.100000    4.300000
+ PARRDR> USING GENERIC ANGLE POTENTIALS
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>    read psf card name        @psf
+ Parameter: PSF -> "NATIVE_STATE_MONOMER_SIMS/1YTA_CA_A.PSF"
+ VOPEN> Attempting to open::native_state_monomer_sims/1yta_ca_a.psf::
+ MAINIO> Protein structure file being read from unit  90.
+ TITLE>  * CREATE PSF
+ TITLE>  *   BY EDWARD P. O'BRIEN JR
+ TITLE>  *  DATE:     3/24/20     15:52:14      CREATED BY USER: lxp260
+ TITLE>  *
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        1   Number of residues   =      181
+         Number of atoms         =      181   Number of groups     =      181
+         Number of bonds         =      180   Number of angles     =      179
+         Number of dihedrals     =      178   Number of impropers  =        0
+         Number of cross-terms   =        0
+         Number of HB acceptors  =        0   Number of HB donors  =        0
+         Number of NB exclusions =        0   Total charge =  -10.00000
+ VCLOSE: Closing unit   90 with status "KEEP"
+  
+ CHARMM>     
+  
+ CHARMM>    ! write all data for all residues for a given time point
+ CHARMM>    ! onto one line of the output file
+ CHARMM>    long
+  
+ CHARMM>     
+  
+ CHARMM>    ! open DCD file to be analyzed
+ CHARMM>    open unit 51 read unform name @inpath
+ Parameter: INPATH -> "MSM/POST_TRANSLATION/FAST/1-200/1/1_I33_POST_TRANS_1YTA.DCD"
+ VOPEN> Attempting to open::msm/post_translation/fast/1-200/1/1_i33_post_trans_1yta.dcd::
+ OPNLGU> Unit 51 opened for READONLY access to msm/post_translation/fast/1-200/1/1_i33_post_trans_1yta.dcd
+  
+ CHARMM>     
+  
+ CHARMM>    ! open file to which data will be written
+ CHARMM>    open unit 21 write form name @outpath
+ Parameter: OUTPATH -> "SASA_DATA/SYNTHESIS/1_FAST_1YTA_CA_SYNTH_CHARMM_SASA.TXT"
+ VOPEN> Attempting to open::sasa_data/synthesis/1_fast_1yta_ca_synth_charmm_sasa.txt::
+ OPNLGU> Unit 21 opened for WRITE access to sasa_data/synthesis/1_fast_1yta_ca_synth_charmm_sasa.txt
+  
+ CHARMM>     
+  
+ CHARMM>    ! run calculation for each frame in DCD file
+ CHARMM>    correl maxseries @nres maxtime 50000 maxatom @nres
+ Parameter: NRES -> "181"
+ Parameter: NRES -> "181"
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  SWITch   VATOm    VSWItch 
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 37.000 CTEXNB =999.000 CTONNB = 18.000 CTOFNB = 20.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    = 78.500
+ NBXMOD =      3
+ There are        0 atom  pairs and        0 atom  exclusions.
+ There are        0 group pairs and        0 group exclusions.
+ <MAKINB> with mode   3 found    359 exclusions and      0 interactions(1-4)
+ <MAKGRP> found    359 group exclusions.
+  
+ CORREL>     
+  
+ CORREL>    enter asa surf rprobe 1.4 sele all end resi
+ SELRPN>    181 atoms have been selected out of    181
+  
+ CORREL>     
+  
+ CORREL>    traj firstu 51 nunit 1 sele all end
+ SELRPN>    181 atoms have been selected out of    181
+ The following time series will be filled:
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+                    ASA 
+
+
+
+ READING TRAJECTORY FROM UNIT  51
+   NUMBER OF COORDINATE SETS IN FILE:    2000
+   NUMBER OF PREVIOUS DYNAMICS STEPS:********
+   FREQUENCY FOR SAVING COORDINATES:     5000
+   NUMBER OF STEPS FOR CREATION RUN: 10000000
+
+ TITLE>  * CHARMM
+ TITLE>  * EDWARD P. O'BRIEN JR. UMD/NIH
+ TITLE>  * EDITED BY DAN NISSLEY 05/02/18
+ TITLE>  *  DATE:    12/ 1/20      1:57:30      CREATED BY USER: lxp260
+ TITLE>  *
+ *****  WARNING  ***** SKIP=    1 WAS NOT A MULTIPLE OF THE FILE INTERVAL= 5000
+ IT HAS BEEN RESET TO 5000
+ *****  WARNING  ***** BEGIN=       0 Was not specified. It has been set to:********
+
+ 2000 CORD RECORDS READ FROM   1 UNITS STARTING WITH UNIT  51
+ RUNNING FROM STEP******** TO ******** SKIPPING 5000 STEPS BETWEEN RECORDS
+ Time step was  0.3068224     AKMA time units.
+    1 Series "ASA "  Average =     180.366811  rms Fluctuation =      32.415284
+    2 Series "ASA "  Average =      65.716345  rms Fluctuation =      18.292376
+    3 Series "ASA "  Average =     145.639527  rms Fluctuation =      47.409343
+    4 Series "ASA "  Average =      40.849045  rms Fluctuation =      19.898162
+    5 Series "ASA "  Average =      65.987121  rms Fluctuation =      21.532504
+    6 Series "ASA "  Average =      77.447933  rms Fluctuation =      26.560228
+    7 Series "ASA "  Average =      23.731011  rms Fluctuation =      16.942268
+    8 Series "ASA "  Average =      18.734878  rms Fluctuation =      10.972045
+    9 Series "ASA "  Average =       9.916591  rms Fluctuation =       3.577584
+   10 Series "ASA "  Average =       6.876680  rms Fluctuation =       4.455628
+   11 Series "ASA "  Average =       3.342737  rms Fluctuation =       3.525033
+   12 Series "ASA "  Average =       2.398538  rms Fluctuation =       4.948639
+   13 Series "ASA "  Average =      10.487283  rms Fluctuation =      10.162140
+   14 Series "ASA "  Average =      48.896212  rms Fluctuation =      22.972110
+   15 Series "ASA "  Average =      39.084699  rms Fluctuation =      16.703613
+   16 Series "ASA "  Average =      90.867340  rms Fluctuation =      42.094679
+   17 Series "ASA "  Average =      63.440260  rms Fluctuation =      13.941781
+   18 Series "ASA "  Average =     110.853688  rms Fluctuation =      23.448974
+   19 Series "ASA "  Average =      91.086108  rms Fluctuation =      41.894827
+   20 Series "ASA "  Average =       9.769272  rms Fluctuation =      12.145391
+   21 Series "ASA "  Average =     157.913504  rms Fluctuation =      26.567838
+   22 Series "ASA "  Average =     111.778253  rms Fluctuation =      32.295738
+   23 Series "ASA "  Average =      15.811269  rms Fluctuation =      14.360364
+   24 Series "ASA "  Average =      37.027172  rms Fluctuation =      12.928760
+   25 Series "ASA "  Average =       9.184612  rms Fluctuation =       5.947606
+   26 Series "ASA "  Average =      18.583986  rms Fluctuation =       9.789145
+   27 Series "ASA "  Average =      16.096118  rms Fluctuation =       8.544080
+   28 Series "ASA "  Average =       3.366807  rms Fluctuation =       5.615310
+   29 Series "ASA "  Average =       4.658375  rms Fluctuation =       5.404928
+   30 Series "ASA "  Average =       8.614721  rms Fluctuation =       3.780151
+   31 Series "ASA "  Average =      11.712930  rms Fluctuation =       5.004874
+   32 Series "ASA "  Average =       2.234261  rms Fluctuation =       2.948752
+   33 Series "ASA "  Average =       9.116673  rms Fluctuation =       5.065226
+   34 Series "ASA "  Average =      15.899969  rms Fluctuation =       9.238653
+   35 Series "ASA "  Average =      31.338035  rms Fluctuation =      21.101974
+   36 Series "ASA "  Average =     146.041836  rms Fluctuation =      42.659945
+   37 Series "ASA "  Average =      17.108113  rms Fluctuation =       9.535241
+   38 Series "ASA "  Average =      68.246914  rms Fluctuation =      13.992395
+   39 Series "ASA "  Average =      23.905205  rms Fluctuation =       8.782708
+   40 Series "ASA "  Average =     170.755289  rms Fluctuation =      21.955885
+   41 Series "ASA "  Average =      60.401687  rms Fluctuation =      13.793073
+   42 Series "ASA "  Average =      52.018507  rms Fluctuation =      13.460026
+   43 Series "ASA "  Average =      16.709666  rms Fluctuation =      16.256819
+   44 Series "ASA "  Average =      97.901097  rms Fluctuation =      22.695614
+   45 Series "ASA "  Average =      26.576890  rms Fluctuation =       9.422410
+   46 Series "ASA "  Average =      45.755497  rms Fluctuation =       8.502343
+   47 Series "ASA "  Average =       2.356746  rms Fluctuation =       2.575076
+   48 Series "ASA "  Average =       6.198977  rms Fluctuation =       4.603256
+   49 Series "ASA "  Average =       3.610704  rms Fluctuation =       4.821412
+   50 Series "ASA "  Average =      58.541712  rms Fluctuation =      28.370645
+   51 Series "ASA "  Average =      87.783084  rms Fluctuation =      46.886030
+   52 Series "ASA "  Average =      26.747838  rms Fluctuation =      11.972894
+   53 Series "ASA "  Average =     142.383248  rms Fluctuation =      53.886070
+   54 Series "ASA "  Average =      31.384450  rms Fluctuation =      19.355158
+   55 Series "ASA "  Average =      29.047514  rms Fluctuation =      19.149054
+   56 Series "ASA "  Average =      98.550638  rms Fluctuation =      30.677640
+   57 Series "ASA "  Average =     127.328558  rms Fluctuation =      29.231477
+   58 Series "ASA "  Average =      30.493992  rms Fluctuation =      18.483521
+   59 Series "ASA "  Average =     101.816965  rms Fluctuation =      29.546622
+   60 Series "ASA "  Average =      47.798625  rms Fluctuation =      12.419382
+   61 Series "ASA "  Average =     158.493087  rms Fluctuation =      39.297467
+   62 Series "ASA "  Average =      29.583000  rms Fluctuation =      16.716173
+   63 Series "ASA "  Average =      18.422204  rms Fluctuation =      16.118592
+   64 Series "ASA "  Average =     147.884686  rms Fluctuation =      40.260521
+   65 Series "ASA "  Average =      32.372109  rms Fluctuation =      17.709081
+   66 Series "ASA "  Average =      29.803524  rms Fluctuation =      24.253506
+   67 Series "ASA "  Average =      32.191760  rms Fluctuation =      23.521379
+   68 Series "ASA "  Average =     113.797264  rms Fluctuation =      36.050346
+   69 Series "ASA "  Average =      88.485953  rms Fluctuation =      39.255408
+   70 Series "ASA "  Average =      38.827251  rms Fluctuation =      16.423406
+   71 Series "ASA "  Average =      19.384186  rms Fluctuation =      10.426772
+   72 Series "ASA "  Average =      38.895796  rms Fluctuation =      21.856001
+   73 Series "ASA "  Average =      86.714054  rms Fluctuation =      13.084837
+   74 Series "ASA "  Average =      85.811382  rms Fluctuation =      12.410364
+   75 Series "ASA "  Average =       0.347440  rms Fluctuation =       0.913697
+   76 Series "ASA "  Average =      31.611017  rms Fluctuation =      13.174254
+   77 Series "ASA "  Average =     127.625441  rms Fluctuation =      11.788953
+   78 Series "ASA "  Average =      83.639775  rms Fluctuation =      26.957144
+   79 Series "ASA "  Average =      77.564599  rms Fluctuation =      24.996136
+   80 Series "ASA "  Average =      44.713672  rms Fluctuation =      13.390782
+   81 Series "ASA "  Average =      27.915434  rms Fluctuation =      11.483732
+   82 Series "ASA "  Average =      39.489634  rms Fluctuation =      12.639864
+   83 Series "ASA "  Average =     110.247141  rms Fluctuation =      10.629092
+   84 Series "ASA "  Average =      46.608635  rms Fluctuation =       5.344182
+   85 Series "ASA "  Average =       9.353463  rms Fluctuation =       3.099737
+   86 Series "ASA "  Average =      20.396210  rms Fluctuation =      11.758767
+   87 Series "ASA "  Average =      43.510102  rms Fluctuation =       4.521351
+   88 Series "ASA "  Average =      47.189311  rms Fluctuation =       5.057622
+   89 Series "ASA "  Average =       8.823824  rms Fluctuation =       4.711330
+   90 Series "ASA "  Average =       8.231292  rms Fluctuation =       3.402829
+   91 Series "ASA "  Average =     111.861287  rms Fluctuation =       5.779628
+   92 Series "ASA "  Average =      92.251450  rms Fluctuation =      11.274512
+   93 Series "ASA "  Average =      13.469066  rms Fluctuation =       3.534398
+   94 Series "ASA "  Average =      29.712162  rms Fluctuation =       7.894788
+   95 Series "ASA "  Average =      73.271405  rms Fluctuation =      20.606117
+   96 Series "ASA "  Average =      28.409602  rms Fluctuation =      13.841250
+   97 Series "ASA "  Average =       5.535959  rms Fluctuation =       6.990184
+   98 Series "ASA "  Average =      62.976937  rms Fluctuation =      24.324015
+   99 Series "ASA "  Average =      43.534364  rms Fluctuation =      22.107522
+  100 Series "ASA "  Average =      27.628369  rms Fluctuation =      10.284713
+  101 Series "ASA "  Average =      41.510199  rms Fluctuation =      16.404842
+  102 Series "ASA "  Average =      17.067136  rms Fluctuation =      10.626157
+  103 Series "ASA "  Average =      18.438030  rms Fluctuation =       9.135024
+  104 Series "ASA "  Average =       5.550589  rms Fluctuation =       3.507017
+  105 Series "ASA "  Average =      14.279119  rms Fluctuation =       8.921691
+  106 Series "ASA "  Average =       2.626336  rms Fluctuation =       3.140279
+  107 Series "ASA "  Average =       4.901025  rms Fluctuation =       6.519505
+  108 Series "ASA "  Average =      45.529550  rms Fluctuation =      22.787284
+  109 Series "ASA "  Average =      50.685343  rms Fluctuation =      29.072642
+  110 Series "ASA "  Average =      11.518341  rms Fluctuation =      10.375490
+  111 Series "ASA "  Average =      59.240183  rms Fluctuation =      32.737342
+  112 Series "ASA "  Average =      12.463499  rms Fluctuation =      14.973261
+  113 Series "ASA "  Average =      21.110488  rms Fluctuation =      13.489916
+  114 Series "ASA "  Average =       3.487563  rms Fluctuation =       5.239845
+  115 Series "ASA "  Average =      16.296821  rms Fluctuation =       9.887632
+  116 Series "ASA "  Average =       1.212397  rms Fluctuation =       2.510201
+  117 Series "ASA "  Average =      38.687479  rms Fluctuation =      11.627924
+  118 Series "ASA "  Average =      81.771675  rms Fluctuation =      16.647936
+  119 Series "ASA "  Average =      38.321073  rms Fluctuation =       8.597258
+  120 Series "ASA "  Average =       2.128435  rms Fluctuation =       3.181206
+  121 Series "ASA "  Average =     139.994135  rms Fluctuation =      13.781084
+  122 Series "ASA "  Average =      38.402616  rms Fluctuation =       4.294820
+  123 Series "ASA "  Average =       8.980305  rms Fluctuation =       3.292153
+  124 Series "ASA "  Average =      14.898500  rms Fluctuation =       6.741523
+  125 Series "ASA "  Average =      84.555882  rms Fluctuation =       9.263231
+  126 Series "ASA "  Average =      69.460384  rms Fluctuation =      13.024817
+  127 Series "ASA "  Average =       4.704292  rms Fluctuation =       3.257968
+  128 Series "ASA "  Average =      63.350271  rms Fluctuation =      15.093496
+  129 Series "ASA "  Average =      81.799472  rms Fluctuation =      22.451701
+  130 Series "ASA "  Average =      59.952985  rms Fluctuation =      10.796191
+  131 Series "ASA "  Average =      36.465007  rms Fluctuation =      22.479969
+  132 Series "ASA "  Average =      54.408876  rms Fluctuation =      23.085931
+  133 Series "ASA "  Average =      50.847680  rms Fluctuation =      17.431344
+  134 Series "ASA "  Average =       4.897178  rms Fluctuation =       4.010969
+  135 Series "ASA "  Average =      74.745162  rms Fluctuation =      19.466186
+  136 Series "ASA "  Average =      33.722458  rms Fluctuation =       6.287788
+  137 Series "ASA "  Average =      36.214781  rms Fluctuation =      19.786682
+  138 Series "ASA "  Average =      33.198125  rms Fluctuation =      19.570159
+  139 Series "ASA "  Average =     149.223759  rms Fluctuation =      10.147624
+  140 Series "ASA "  Average =      83.095066  rms Fluctuation =      14.861534
+  141 Series "ASA "  Average =       0.815941  rms Fluctuation =       1.509645
+  142 Series "ASA "  Average =      15.086805  rms Fluctuation =       7.097357
+  143 Series "ASA "  Average =     111.966320  rms Fluctuation =       9.609787
+  144 Series "ASA "  Average =      63.258391  rms Fluctuation =      10.988138
+  145 Series "ASA "  Average =      50.556376  rms Fluctuation =      17.713347
+  146 Series "ASA "  Average =      85.529385  rms Fluctuation =      20.077521
+  147 Series "ASA "  Average =     138.668547  rms Fluctuation =      51.931636
+  148 Series "ASA "  Average =      47.568285  rms Fluctuation =      27.149100
+  149 Series "ASA "  Average =      28.089628  rms Fluctuation =      17.124970
+  150 Series "ASA "  Average =      99.924734  rms Fluctuation =      41.102914
+  151 Series "ASA "  Average =      98.466869  rms Fluctuation =      29.947798
+  152 Series "ASA "  Average =      23.842497  rms Fluctuation =      17.065049
+  153 Series "ASA "  Average =     105.008364  rms Fluctuation =      44.749283
+  154 Series "ASA "  Average =      84.206025  rms Fluctuation =      25.270314
+  155 Series "ASA "  Average =     176.107678  rms Fluctuation =      28.086360
+  156 Series "ASA "  Average =      54.770346  rms Fluctuation =      21.735063
+  157 Series "ASA "  Average =      86.369102  rms Fluctuation =      27.918426
+  158 Series "ASA "  Average =      54.993382  rms Fluctuation =      25.533884
+  159 Series "ASA "  Average =     109.951957  rms Fluctuation =      36.914411
+  160 Series "ASA "  Average =      20.564063  rms Fluctuation =      20.928237
+  161 Series "ASA "  Average =      41.223594  rms Fluctuation =      10.574050
+  162 Series "ASA "  Average =      69.024369  rms Fluctuation =      17.272044
+  163 Series "ASA "  Average =       9.477562  rms Fluctuation =      18.290432
+  164 Series "ASA "  Average =      10.438419  rms Fluctuation =       8.010148
+  165 Series "ASA "  Average =      38.896035  rms Fluctuation =      10.096421
+  166 Series "ASA "  Average =       6.072818  rms Fluctuation =       3.856305
+  167 Series "ASA "  Average =       4.056918  rms Fluctuation =       4.108016
+  168 Series "ASA "  Average =      20.653115  rms Fluctuation =      12.356448
+  169 Series "ASA "  Average =      83.115355  rms Fluctuation =      15.710553
+  170 Series "ASA "  Average =       5.768497  rms Fluctuation =       5.992594
+  171 Series "ASA "  Average =      13.491015  rms Fluctuation =       6.493703
+  172 Series "ASA "  Average =      33.257392  rms Fluctuation =       9.044079
+  173 Series "ASA "  Average =      72.886958  rms Fluctuation =      14.128239
+  174 Series "ASA "  Average =       0.346758  rms Fluctuation =       0.751757
+  175 Series "ASA "  Average =      38.415599  rms Fluctuation =      14.098717
+  176 Series "ASA "  Average =      94.140510  rms Fluctuation =      19.331230
+  177 Series "ASA "  Average =      47.432893  rms Fluctuation =      11.154645
+  178 Series "ASA "  Average =      21.915685  rms Fluctuation =      13.051676
+  179 Series "ASA "  Average =      59.210763  rms Fluctuation =      19.422752
+  180 Series "ASA "  Average =     110.335582  rms Fluctuation =      42.197723
+  181 Series "ASA "  Average =     256.081681  rms Fluctuation =      43.282829
+  
+ CORREL>     
+  
+ CORREL>    write asa dumb time unit 21
+ RDTITL>  
+ RDTITL> No title read.
+ VCLOSE: Closing unit   21 with status "KEEP"
+  
+ CORREL>     
+  
+ CORREL>    STOP
+ VCLOSE: Closing unit   51 with status "KEEP"
+$$$$$$  New timer profile $$$$$
+ Total time                     22.59 Other:            0.00
+
+                    NORMAL TERMINATION BY NORMAL STOP
+                    MAXIMUM STACK SPACE USED IS   93262
+                    STACK CURRENTLY IN USE IS      2548
+                    NO WARNINGS WERE ISSUED
+                    HEAP PRINTOUT-  HEAP SIZE         10240000
+                    SPACE CURRENTLY IN USE IS          9100546
+                    MAXIMUM SPACE USED IS              9128332
+                    FREE LIST
+  PRINHP> ADDRESS:               1 LENGTH:         1113352 NEXT:        10213535
+  PRINHP> ADDRESS:        10213535 LENGTH:           26102 NEXT:               0
+
+                    $$$$$ JOB ACCOUNTING INFORMATION $$$$$
+                     ELAPSED TIME:    22.59  SECONDS 
+                         CPU TIME:    12.36  SECONDS 

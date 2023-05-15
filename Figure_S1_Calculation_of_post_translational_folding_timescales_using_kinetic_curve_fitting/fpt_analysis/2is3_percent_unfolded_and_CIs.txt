@@ -1,0 +1,3 @@
+fpt_analysis/fpt_analysis_2is3_wt/  : 0.01500 0.00000 0.03500
+fpt_analysis/fpt_analysis_2is3_fast/: 0.02500 0.00500 0.05000
+fpt_analysis/fpt_analysis_2is3_slow/: 0.01000 0.00000 0.02500
